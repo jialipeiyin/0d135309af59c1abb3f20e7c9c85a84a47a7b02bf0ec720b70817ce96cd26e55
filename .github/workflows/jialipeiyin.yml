@@ -1,24 +1,23 @@
 name: jialipeiyin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 1/6 * * *'
-jobs:  # 11280
+    - cron: '53 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jialipeiyin
         env:
-          qgyox775: ${{ secrets.qgyox775 }}
+          g5421: ${{ secrets.g5421 }}
         run: |
-          echo $qgyox775 | jq -r .zsga99460 | /bin/bash
-          echo $h6462 | jq -r .gp983 | /bin/bash
-          echo $y403 | jq -r .x60 | /bin/bash
-          echo $skedy0326 | jq -r .nr055 | /bin/bash
-          echo $ipo8 | jq -r .nhzk57428 | /bin/bash
-          echo $k6009 | jq -r .o03 | /bin/bash
-          echo $gdzhb3 | jq -r .yszyv07 | /bin/bash
-          echo $c83904 | jq -r .en1 | /bin/bash
-          echo $hacoh68495 | jq -r .xwwfj51629 | /bin/bash
+          echo $g5421 | jq -r .unev10 | /bin/bash
+          echo $jkelc62 | jq -r .grb369 | /bin/bash
+          echo $sof3 | jq -r .tird15 | /bin/bash
+          echo $task2 | jq -r .lsej3 | /bin/bash
+          echo $pckgb4 | jq -r .mnnz45 | /bin/bash
+          echo $slug7 | jq -r .pvihh98908 | /bin/bash
 
